@@ -65,9 +65,17 @@ export const projectsData = [
     title: "Infaque - Donor Engagement Platform",
     description:
       "I worked as a full-stack developer on this startup prdoduct for 2 years.It's a donor engagement platform that empowers philanthropic nonprofits to do a lot more with a lot less!",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "SQL", "Firebase", "Serverless"],
+    tags: [
+      "React",
+      "Next.js",
+      "MongoDB",
+      "Tailwind",
+      "SQL",
+      "Firebase",
+      "Serverless",
+    ],
     imageUrl: corpcommentImg,
-    link: ""
+    link: "",
   },
   {
     title: "Riskwell - Broker Engagement Platform",
@@ -75,15 +83,14 @@ export const projectsData = [
       "Riskwell is a dynamic Broker Engagement Platform designed to optimize compliance tracking and broker performance within the financial industry. Through innovative technology, it offers real-time updates on broker compliance status, fosters professional development through educational resources, and ensures data integrity. Riskwell streamlines operations, empowering brokers to navigate regulatory complexities with ease while driving growth and compliance excellence",
     tags: ["React", "Javascript", "Firebase", "Tailwind", "Redux, Shadcn-UI"],
     imageUrl: rmtdevImg,
-    link: ""
+    link: "https://app.riskwell.com/",
   },
   {
     title: "Egility",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    description: "Profile Matching for recruiters and agencies.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
-    link: ""
+    link: "",
   },
 ] as const;
 
@@ -103,5 +110,5 @@ export const skillsData = [
   "Redux",
   "Express",
   "Framer Motion",
-  "Three js"
+  "Three js",
 ] as const;
