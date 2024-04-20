@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import tayyab from "@/public/tayyab1.png";
+import tayyab from "@/public/tayyab2.jpg";
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
@@ -33,11 +33,11 @@ export default function Intro() {
             <Image
               src={tayyab}
               alt="Tayyab portrait"
-              width="240"
-              height="240"
-              quality="95"
+              width="1068"
+              height="1068"
+              quality="100"
               priority={true}
-              className="h-48 w-48  object-cover border-[0.35rem]  border-white shadow-xl"
+              className="h-48 w-48  rounded-full object-cover border-[0.35rem]  border-white shadow-xl"
             />
           </motion.div>
 
