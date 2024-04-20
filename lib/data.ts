@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import infaque from "@/public/infaque.png";
+import riskwell from "@/public/riskwell.png";
+import egility from "@/public/egility.png";
 
 export const links = [
   {
@@ -65,32 +65,24 @@ export const projectsData = [
     title: "Infaque - Donor Engagement Platform",
     description:
       "I worked as a full-stack developer on this startup prdoduct for 2 years.It's a donor engagement platform that empowers philanthropic nonprofits to do a lot more with a lot less!",
-    tags: [
-      "React",
-      "Next.js",
-      "MongoDB",
-      "Tailwind",
-      "SQL",
-      "Firebase",
-      "Serverless",
-    ],
-    imageUrl: corpcommentImg,
-    link: "",
+    tags: ["React", "Tailwind", "Firebase", "Serverless"],
+    imageUrl: infaque,
+    link: "https://infaque-demo-canada-16a12.web.app/admin-dashboard",
   },
   {
     title: "Riskwell - Broker Engagement Platform",
     description:
-      "Riskwell is a dynamic Broker Engagement Platform designed to optimize compliance tracking and broker performance within the financial industry. Through innovative technology, it offers real-time updates on broker compliance status, fosters professional development through educational resources, and ensures data integrity. Riskwell streamlines operations, empowering brokers to navigate regulatory complexities with ease while driving growth and compliance excellence",
-    tags: ["React", "Javascript", "Firebase", "Tailwind", "Redux, Shadcn-UI"],
-    imageUrl: rmtdevImg,
+      "Revolutionizing Broker Performance & Compliance. Real-time updates, education, and data integrity. Streamlining operations for growth and excellence.",
+    tags: ["React", "Firebase", "Tailwind", "Redux", "Shadcn-UI"],
+    imageUrl: riskwell,
     link: "https://app.riskwell.com/",
   },
   {
     title: "Egility",
     description: "Profile Matching for recruiters and agencies.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-    link: "",
+    tags: ["React", "SERVERLESS", "Firebase", "Tailwind", "Framer"],
+    imageUrl: egility,
+    link: "https://egility-production.web.app/",
   },
 ] as const;
 
