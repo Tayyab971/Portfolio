@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import infaque from "@/public/infaque.png";
 import riskwell from "@/public/riskwell.png";
 import egility from "@/public/egility.png";
+import artmetrica from "@/public/artmetrica.png";
 
 export const links = [
   {
@@ -48,7 +49,7 @@ export const experiencesData = [
     description:
       "I worked as a front-end developer for 2 years. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - pressent",
+    date: "2021 - 2023",
   },
   {
     title: "Full-Stack Developer",
@@ -56,7 +57,7 @@ export const experiencesData = [
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma, Firebase and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
@@ -83,6 +84,14 @@ export const projectsData = [
     tags: ["React", "SERVERLESS", "Firebase", "Tailwind", "Framer"],
     imageUrl: egility,
     link: "https://egility-production.web.app/",
+  },
+  {
+    title: "Art Metrica",
+    description:
+      "Artmetrica is a platform for artists to showcase their work.It inlcudes 6 different services Google forms, xero, quickbooks,meta, google analytics, mailchimp.",
+    tags: ["React", "SERVERLESS", "Firebase", "Tailwind", "Framer", "SQL"],
+    imageUrl: artmetrica,
+    link: "https://artmetrica.ca/",
   },
 ] as const;
 
