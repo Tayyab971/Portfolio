@@ -23,7 +23,7 @@ export default function Contact() {
         opacity: 1,
       }}
       transition={{
-        duration: 1,
+        duration: 1.5,
       }}
       viewport={{
         once: true,
@@ -67,7 +67,9 @@ export default function Contact() {
           required
           maxLength={5000}
         />
-        <SubmitBtn />
+        <div className="flex items-end justify-end">
+          <SubmitBtn />
+        </div>
       </form>
     </motion.section>
   );
