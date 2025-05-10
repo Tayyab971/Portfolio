@@ -39,25 +39,32 @@ export const experiencesData = [
     title: "Bachelor of Computer Science",
     location: "University of Management and Technology Lahore, Pakistan",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "After graduating. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
     date: "2017-2021",
   },
   {
     title: "Front-End Developer",
-    location: "Infaque",
-    description:
-      "I worked as a front-end developer for 2 years. I also upskilled to the full stack.",
+    location: "Rising Technologies",
+    description: "I worked as a front-end developer for 6 months.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2023",
+    date: "2021",
+  },
+  {
+    title: "Front-End Developer (Part Time)",
+    location: "Tronsit Solutions",
+    description:
+      "I worked as a front-end developer for 6 months. I also upskilled to the full stack in parallel",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - 2024",
   },
   {
     title: "Full-Stack Developer",
-    location: "Lahore, Pakistan",
+    location: "Infaque",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma, Firebase and MongoDB. I'm open to full-time opportunities.",
+      "I'm working as full-stack developer  at Infaque. My stack includes React, Next.js, TypeScript, Tailwind, Prisma, Firebase and MongoDB.",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "2021 - present",
   },
 ] as const;
 
@@ -112,4 +119,6 @@ export const skillsData = [
   "Express",
   "Framer Motion",
   "Three js",
+  "Shadcn Ui",
+  "Next UI",
 ] as const;
