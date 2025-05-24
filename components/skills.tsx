@@ -2,7 +2,7 @@
 
 import React, { useContext } from "react";
 import SectionHeading from "./section-heading";
-import { skillsData, skillsIcons } from "@/lib/data";
+import { skillsIcons } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -45,7 +45,7 @@ export default function Skills() {
             custom={index}
           >
             <Image
-              className="cursor-pointer hover:scale-125 transition-all duration-100"
+              className="cursor-pointer hover:scale-125 transition-eas duration-100"
               loading="lazy"
               width={45}
               height={45}
