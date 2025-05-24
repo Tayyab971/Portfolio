@@ -6,6 +6,7 @@ import infaque from "@/public/infaque.png";
 import riskwell from "@/public/riskwell.png";
 import egility from "@/public/egility.png";
 import artmetrica from "@/public/artmetrica.png";
+import mealmuse from "@/public/mealmuse.png";
 
 export const links = [
   {
@@ -87,7 +88,8 @@ export const projectsData = [
   },
   {
     title: "Egility",
-    description: "Profile Matching for recruiters and agencies.",
+    description:
+      "Profile Matching for recruiters and agencies.Uses Humantics API and receptivity API to match profiles.",
     tags: ["React", "SERVERLESS", "Firebase", "Tailwind", "Framer"],
     imageUrl: egility,
     link: "https://egility-production.web.app/",
@@ -99,6 +101,14 @@ export const projectsData = [
     tags: ["React", "SERVERLESS", "Firebase", "Tailwind", "Framer", "SQL"],
     imageUrl: artmetrica,
     link: "https://artmetrica.ca/",
+  },
+  {
+    title: "Meal Muse",
+    description:
+      "This Recipe App is a sleek and user-friendly application built with Vue.js to showcase modern frontend development skills. Originally designed for a client project, it demonstrates dynamic rendering of recipe data, smooth navigation, and responsive design.",
+    tags: ["Vue", "Nuxt", "Tailwind"],
+    imageUrl: mealmuse,
+    link: "https://meal-muse-r189vqzr8-tayyab971s-projects.vercel.app/",
   },
 ] as const;
 
