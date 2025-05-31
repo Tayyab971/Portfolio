@@ -14,7 +14,7 @@ const nextConfig = {
     dangerouslyAllowSVG: true,
   },
   experimental: {
-    serverActions: false,
+    serverActions: true,
   },
 };
 
