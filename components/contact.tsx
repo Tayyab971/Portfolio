@@ -23,7 +23,7 @@ export default function Contact() {
         opacity: 1,
       }}
       transition={{
-        duration: 1,
+        duration: 1.5,
       }}
       viewport={{
         once: true,
@@ -43,6 +43,7 @@ export default function Contact() {
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
+          console.log(data, error);
 
           if (error) {
             toast.error(error);
@@ -67,7 +68,9 @@ export default function Contact() {
           required
           maxLength={5000}
         />
-        <SubmitBtn />
+        <div className="flex items-end justify-end">
+          <SubmitBtn />
+        </div>
       </form>
     </motion.section>
   );
