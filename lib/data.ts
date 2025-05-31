@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import infaque from "@/public/infaque.png";
 import riskwell from "@/public/riskwell.png";
 import egility from "@/public/egility.png";
+import mernAuth from "@/public/mern-auth.png";
+import meal from "@/public/mealmuse.png";
 
 export const links = [
   {
@@ -83,6 +85,20 @@ export const projectsData = [
     tags: ["React", "SERVERLESS", "Firebase", "Tailwind", "Framer"],
     imageUrl: egility,
     link: "https://egility-production.web.app/",
+  },
+  {
+    title: "Meal Muse",
+    description: "Simple Recipe applicaiton",
+    tags: ["Vue", "Nuxt", "Firebase", "Tailwind",],
+    imageUrl: meal,
+    link: "https://meal-muse-seven.vercel.app/",
+  },
+  {
+    title: "Mern Authentication",
+    description: "Mern Comlpete Authetication System. It has JWT, Email Verification, Password Reset, and more.",
+    tags: ["React", "Node", "Express", "Tailwind", "MongoDB"],
+    imageUrl: mernAuth,
+    link: "https://mern-auth-lyart-one.vercel.app",
   },
 ] as const;
 
